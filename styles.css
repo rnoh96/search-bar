@@ -1,0 +1,39 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+input {
+    width: 10rem;
+    font-size: 1rem;
+}
+
+.contact-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.name {
+    font-size: 1.25rem;
+    /* font-weight: bold; */
+}
+
+.email {
+    color: gray;
+}
+
+.hide {
+    display: none;
+}
